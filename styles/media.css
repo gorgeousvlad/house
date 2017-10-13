@@ -1,0 +1,182 @@
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	html{
+		font-size:16px;
+	}
+
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	html{
+		font-size:15px;
+	}
+	#map-wrapper{
+    height:360px;
+	}
+	
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	html{
+		font-size:14px;
+	}
+	#map-wrapper{
+    	height:300px;
+	}
+
+}
+@media (max-width: 730px) {
+	#gallery-wraper{
+		width: 55%;
+	}
+}	
+@media (max-width: 670px) {
+	#gallery-wraper{
+		width: 60%;
+	}
+}	
+@media (max-width: 610px) {
+	#gallery-wraper{
+		width: 65%;
+	}
+}	
+@media (max-width: 580px) {
+	#phone{
+		display:none;
+	}
+	#contacts-wrapper{
+		flex-wrap:wrap;
+		-webkit-flex-wrap:wrap;
+	}
+	#map-wrapper{
+		width: 90% ;
+    	height:310px ;
+	}
+	#contacts-outer{
+		width: 90% ;
+		margin-left: 0 ;
+		margin-top: 2%;
+	}
+	.contacts-row{
+		margin-bottom: 1% ;
+	}
+	#gallery-wraper{
+		width: 70%;
+	}
+}
+@media (max-width: 530px) {
+	#gallery-wraper{
+		width: 75%;
+	}
+}	
+@media (min-width: 481px) and (max-width: 991px) {
+	#main-wrapper{
+		top:110px;
+	}
+	#first-line{
+		padding: 10px 0 0 10px;
+	}
+	#second-line{
+		top: -5px;
+	}
+	#header{
+		height: 100px;
+	}
+}
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+	html{
+		font-size:14px;
+	}
+	#phone{
+		display: none;
+	}
+	#logo-label{
+		font-size:2.15rem;
+	}
+	#main-menu{
+		visibility: hidden;
+		background-color: #09C;
+		opacity: 0.9;
+		border-radius: 8px;
+		padding: 10px 10px 10px 15px;
+		margin-left: -2%;
+		margin-top: 10%;
+	}
+	.shown{
+		visibility: visible !important;
+	}
+	#main-menu li {
+		border-width:0px;
+		display:block;
+	}
+	.menu-button{
+		display: inline-block;
+	}
+	#header{
+		height: 85px;
+	}
+	#main-wrapper{
+		top:90px;
+	}
+	#house-outer{
+		opacity: 0;
+	}
+	#menu-outer{
+		position: relative;
+		top: -52px;
+	}
+	#gallery-wraper{
+		width: 40%;
+	}
+}
+@media (max-width: 430px) {
+	#gallery-wraper{
+		width: 45%;
+	}
+}	
+
+@media (max-width: 370px) {
+	#gallery-wraper{
+		width: 50%;
+	}
+}	
+@media (max-width: 320px) {
+	#logo-label{
+		font-size:1.9rem;
+	}
+	#features li{
+		margin-left: 5%;
+	}
+}
+
+@media all and (max-width: 1400px){
+	#notes-wrapper{
+		flex-wrap: wrap;
+		-weblit-flex-wrap:wrap;
+	}
+	.note-outer{
+		text-indent: 1.3rem;
+	}
+	.note{
+		margin:5px;
+		max-width: none;
+		display: inline-block;
+	}
+}
+@media all and (max-width: 767px){
+	#notes-wrapper{
+		display: none;
+	}
+	.mobile-hidden{
+		display: none;
+	}
+	.mobile-cap{
+		text-transform: capitalize;
+	}
+	.mobile-only{
+		display: block;
+	}
+}

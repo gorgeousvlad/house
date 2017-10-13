@@ -1,0 +1,145 @@
+#header{
+	font-family:"Roboto Condensed","Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	width:100%;
+	height:120px;
+	background-color:#09C;
+	position: fixed;
+	z-index: 100;
+}
+.line{
+	position: relative;
+	width:100%;
+}
+#first-line{
+	display: flex;
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items:center;
+	align-items:center;
+	padding:10px 0;
+	height: 60px;
+	line-height: 61px;
+}
+#second-line{
+	height: 40px;
+	line-height: 10px;
+}
+#first-line * {
+	display: inline-block; 
+	position: relative;
+	vertical-align: top;
+}
+#logo{
+	text-align: left;
+	margin-left: 3%;
+	/*min-width: 320px;*/
+}
+#house-outer{
+	width: 60px;
+	height: 60px;
+}
+#little-house{
+	position: absolute;
+	display: inline-block;
+	background-color: white;
+	width: 40px;
+	height: 30px;
+	top: 25px;
+	left: 10px;
+}
+
+#little-house:before{
+	content: ""; 
+	position: absolute;
+	top: -23px;
+	left: 37px;
+	width: 10px;
+	height:10px;
+	border-radius: 50%;
+	background-color: white;
+}
+#little-house:after{
+	content: ""; 
+	position: absolute;
+	top: -20px;
+	left: -5px;
+	width: 0px;
+	height: 0px;
+	border: 25px solid transparent;
+	border-bottom-color: white;  
+  	border-top: 0;
+}
+#logo-label{
+	text-align: left;
+	margin-left: 20px;
+	font-size:2.25rem;
+}
+#phone{	
+	text-align:right;
+	font-weight:bold;
+	font-size:1.5rem;
+	margin-right: 4%;
+}
+#main-menu{
+	padding: 0;
+	margin:0;
+}
+.menu-button{
+	display: none;
+	position: relative;
+	text-align: center;
+    box-sizing: border-box;
+    top: -8px;
+    left: 4px;
+    width: 50px;
+    height: 43px;
+    line-height: 40px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.menu-button:before {
+	content: '\2261';
+	font-size: 2rem;
+}
+.menu-button:hover {
+	opacity: 0.8;
+}
+#menu-outer{
+	display: inline-block;
+	/*min-width:400px;*/
+	margin-left: 3%;;
+	height:40px;
+	line-height: 40px;
+}
+#main-menu li {
+	border-width:0px;
+	display:inline;
+	font-size:1.3rem;
+}
+#main-menu li a{
+	margin-right:15px;
+	color:white;
+	text-decoration:none;
+}
+#main-menu li a:hover{
+text-decoration:underline;
+}
+#foot{
+	clear:both;
+	position:relative;
+	left:0px;
+	top: 120px;
+	height:35px;
+	width:100%;
+	font-family:"Roboto Condensed","Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	background-color:#09C;
+	font-size:1rem;
+	text-align:center;
+	margin-top:30px;
+	padding-top:10px;
+	}
